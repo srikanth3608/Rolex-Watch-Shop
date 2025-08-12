@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pages{
+    background-image: url(./img/rolex\ bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* backdrop-filter: blur(3px); */
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container{
+    backdrop-filter: blur(1px);
+    background-color: rgb(134, 134, 134,0.4);
+    color: white;
+    display: flex;
+    padding: 10px;
+    width: 1349px;
+    height: 70px;
+    font-size: 20px;
+}
+.container header{
+    margin-left: 30px;
+    display: flex;
+    font-weight: 600;
+}
+.container header p{
+    margin-top: 12px;
+}
+.container header img{
+    position: relative;
+
+}
+.container nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 350px;
+}
+.container nav ul li{
+    display: flex;
+    justify-content: space-around;
+}
+.container nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.container nav ul li a:hover{
+    color: #ff8838;
+}
+.container nav ul li button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.container nav ul li button:hover{
+    background-color: #ff8838;
+    color: white;
+}
+/* end */
+
+.maincont{
+    margin-top: 110px;
+    margin-left: 60px;
+    text-align: center;
+    width: 500px;
+}
+.maincont h1{
+    color: white;
+    font-size: 70px;
+    font-family: "Archivo Black", serif;
+}
+.maincont h3{
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.maincont span{
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    margin: 10px;
+}
+.maincont button{
+    margin: 20px;
+    padding: 18px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.maincont button:hover{
+    background-color: #ff8838;
+    color: white;
+}
+.maincont .social{
+    font-size: 35px;
+    margin-top: 15px;
+}
+.maincont .social i{
+    margin-right: 15px;
+    color: white;
+}
+.maincont .social #whatsapp:hover{
+    color: #00ff40;
+    font-size: 40px;
+}
+.maincont .social #instagram:hover{
+    color: #da25c2;
+    font-size: 40px;
+}
+.maincont .social #facebook:hover{
+    color: #265cd9;
+    font-size: 40px;
+}
+.maincont .social #youtube:hover{
+    color: #ff0000;
+    font-size: 40px;
+}
+
+/* end */
+.buy{
+    height: 182vh;
+    background-color: rgb(20, 20, 20);
+}
+.buy h1{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 45px;
+    font-family: "New Amsterdam", serif;
+}
+.buy .contimg{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.buy .products{
+    border: 1px solid rgb(201, 201, 201,0.4);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.buy .products .images{
+    background-color: black;
+    width: 300px;
+    height: 510px;
+    border-radius: 20px;
+}
+.buy .products .images h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.buy .products .images img{
+    height: 320px;
+    width: 230px;
+    margin-left: 37px;
+    border-radius: 10px;
+}
+.buy .products .images img:hover{
+    opacity: 0.5;
+    
+}
+.buy .products .images:hover{
+    box-shadow: 3px 3px 10px gray;
+}
+.buy .products .images p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.buy .products .images .str{
+    color: gray;
+    margin-left: 30px;
+    text-decoration: line-through;
+}
+.buy .products .images .price{
+    color: white;
+    margin-left: 10px;
+}
+.buy .products .images .icons{
+    margin-left: 32px;
+    margin-top: 5px;
+}
+.buy .products .images .icons .rev{
+    color: white;
+    display: inline;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.buy .products .images button{
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.buy .products .images .byebtn{
+    width: 115px;
+    height: 45px;
+}
+.buy .products .images .cartbtn{
+    margin-left: 10px;
+    width: 115px;
+    height: 45px;
+}
+.buy .products .images .cartbtn i{
+    font-size: 15px;
+    margin-left: 3px;
+}
+.buy .products .images button:hover{
+    background-color: #ff8838;
+    color: white;
+}
+/* end */
+
+.future{
+    height: 80vh;
+    background-color: black;
+    position: relative;
+}
+.future img{
+    height: 80vh;
+    position: absolute;
+    left: 566px;
+    /* margin-left: 370px; */
+}
+.future .hd{
+    padding: 12px;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    left: 530px;    
+    font-family: "New Amsterdam", serif;
+}
+.future .futurecont{
+    padding-left: 120px;
+    padding-top: 150px;
+    position: absolute;
+    color: white;
+    font-family: "Archivo Black", serif;
+}
+.future .futurecont .comsoon{
+    font-size: 20px;
+}
+
+.future .futurecont p{
+    padding-bottom: 7px;
+    font-size: 35px;
+}
+
+.future .futurecont button{
+    margin-top: 10px;
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.future .futurecont button:hover{
+    background-color: #ff8838;
+    color: white;
+}
+/* end future producr */
+
+.contact{
+    height: 80vh;
+    font-family: sans-serif;
+    color: rgb(78, 78, 78);
+}
+.contact h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    color: #265cd9;
+    font-family: "New Amsterdam", serif;
+}
+
+.contact .contflex div:nth-child(2){
+    border: 1px solid rgb(155, 155, 155);
+}
+.contact .contflex{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    /* margin-top: 30px; */
+}
+.contact .contflex h3{
+    color: #265cd9;
+    margin-bottom: 10px;
+}
+.contact .contflex h3 i{
+    font-size: 25px;
+}
+.contact .contflex .number{
+    /* margin-right: 100px; */
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.contact .contflex .number p{
+    width: 400px;
+    font-size: 19px;
+    margin: 15px;
+}
+.contact .contflex .number p i{
+    font-size: 20px;
+}
+
+.contact .contflex .feedback{
+    margin-right: 100px;
+}
+.contact .contflex .feedback input{
+    width: 250px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 7px;
+    padding: 10px;
+    
+}
+.contact .contflex .feedback label{
+    margin-right: 10px;
+    font-size: 19px;
+}
+.contact .contflex .feedback p{
+    margin: 10px 10px 0px 0px;
+    font-size: 19px;
+}
+.contact .contflex .feedback .r1{
+    margin-right: 47px;
+}
+.contact .contflex .feedback .r2{
+    margin-right: 45px;
+}
+.contact .contflex .feedback textarea{
+    margin-top: 10px;
+    padding: 10px;
+}
+.contact .contflex .feedback button{
+    width: 130px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #265cd9;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.contact .contflex .feedback button i{
+    margin-left: 10px;
+    color: white;
+}
+.contact .contflex .feedback button:hover{
+    background-color: white;
+    color: #265cd9;
+    border: 1px solid #265cd9;
+}
+.social2 i{
+    color: black;
+    font-size: 30px;
+    /* margin: 3px 10px 7px 0px; */
+    margin: 10px;
+}
+.social2 #whatsapp:hover{
+    color: #00ff40;
+    font-size: 40px;
+}
+.social2 #instagram:hover{
+    color: #da25c2;
+    font-size: 40px;
+}
+.social2 #facebook:hover{
+    color: #265cd9;
+    font-size: 40px;
+}
+.social2 #youtube:hover{
+    color: #ff0000;
+    font-size: 40px;
+}
+
+/* end contact */
+
+footer{
+    height: 23vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+footer div:nth-child(2) a{
+    text-decoration: none;
+    margin-top: 5px;
+    color: white;
+    display: block;
+}
+footer div:nth-child(3) a{
+    text-decoration: none;
+    margin-top: 5px;
+    color: white;
+    display: block;
+}
+footer div:nth-child(1):hover, footer div a:hover {
+    color: #ff8838;
+}
+/* end footer */

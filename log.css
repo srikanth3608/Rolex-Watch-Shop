@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/logbg2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+header {
+    height: 145px;
+}
+
+header img {
+    height: 80px;
+    margin-left: 620px;
+    margin-top: 10px; 
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+form {
+    border: 1px solid rgb(240, 235, 235, 0.6);
+    height: 460px;
+    width: 380px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: rgba(176, 176, 1766, 0.1);
+    backdrop-filter: blur(5px);
+    /* -webkit-backdrop-filter: blur(5px); */
+    border-radius: 10px;
+    position: relative;
+
+}
+form #i1{
+    position: absolute;
+    left: 300px;
+    top: 88px;
+    font-size: 20px;
+}
+form #i2{
+    position: absolute;
+    left: 300px;
+    top: 153px;
+    font-size: 20px;
+}
+form h1 {
+    color: white;
+    margin: 15px
+}
+
+form input {
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    height: 45px;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+form p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+form a {
+    text-decoration: none;
+    color: #008cff;
+}
+form a:hover{
+    text-decoration: underline;
+}
+form button {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #ff8838;
+}
+form button:hover{
+    background-color: #ce7438;
+    color: white;
+}
+form .abtn{
+    color: white;
+}
+form .signpara{
+    margin: 25px;
+    color: rgb(185, 185, 185);
+    font-size: 15PX;
+}
+form .social{
+    font-size: 38px;
+}
+form .social i{
+    margin-left: 10px;
+}
+form .social i:hover{
+    font-size: 50px;
+}
+
+form span{
+    position: relative;
+    bottom: 5px;
+}
